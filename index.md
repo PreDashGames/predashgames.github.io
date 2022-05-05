@@ -1,1 +1,7 @@
-# Test
+# Who We Are
+We are dedicated to creating production ready assets for use with the Unity game engine. Our assets are built in response to the needs of real proffesionals in the game development industry. We believe an asset is only worth publishing if no existing asset provides the same experience. It's not about "we can do it better!", but about "why hasn't anyone done that yet?".
+
+# Our Assets
+
+## Search Lib
+A fuzzy search library built specifically for unity. This library provides implementations of a wider arrange of fuzzy search methods so you can pick the one that's right for your use case. This library can be used in both runtime applications and editor tools. It has a simple interface that makes it incredibly simple to work with. You can start using it within minutes, with the option to dive deep and create your own implementations.
