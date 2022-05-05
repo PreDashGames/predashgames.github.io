@@ -8,4 +8,5 @@ A fuzzy search library built specifically for unity. This library provides imple
 
 # Contact Us
 If you need help with an asset, you can fire an email to predashgames@gmail.com
+
 If you'd like to report a bug, please open a github issue on that asset's repository
