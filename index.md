@@ -3,7 +3,7 @@ We are dedicated to creating production ready assets for use with the Unity game
 
 # Our Assets
 
-## Search Lib
+## [Search Lib](SearchLib/index.md)
 A fuzzy search library built specifically for unity. This library provides implementations of a wider arrange of fuzzy search methods so you can pick the one that's right for your use case. This library can be used in both runtime applications and editor tools. It has a simple interface that makes it incredibly simple to work with. You can start using it within minutes, with the option to dive deep and create your own implementations.
 
 # Contact Us
