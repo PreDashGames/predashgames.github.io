@@ -73,7 +73,7 @@ public class TextMeshStringTextBinding : Binding<string>
 
 ### Binding A Collection
 The only provided collection binding is `TransformViewCollectionBinding`, which takes a collection of view models and spawns a template with a `View` component and binds those view models to the spawned templates.
-<img width="926" height="235" alt="image" src="https://github.com/user-attachments/assets/e3ea89c3-20d0-47a1-9549-b9cd68a92d0e" />
+<img style="height: auto; max-width: 100%;" alt="image" src="https://github.com/user-attachments/assets/e3ea89c3-20d0-47a1-9549-b9cd68a92d0e" />
 
 ### Receiving Input From The View
 <img width="907" height="262" alt="image" src="https://github.com/user-attachments/assets/7ad01286-4f87-47e7-a845-bb227906114e" />
