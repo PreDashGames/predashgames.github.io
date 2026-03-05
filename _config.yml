@@ -1,5 +1,5 @@
-theme: minima
+remote_theme: jekyll/minima
 minima:
-skin: auto
+skin: dark
 title: PreDashGames
 description: Powerful assets to help you out in your projects, before you make the jump!
