@@ -44,7 +44,7 @@ ShopViewModel vm = new(shop.DisplayName, itemViewModels);
 
 ### Binding A View Model To A View
 
-<img width="918" height="168" alt="image" src="https://github.com/user-attachments/assets/e2c390ef-5ea2-49f6-9960-99d985809934" />
+<img style="height: auto; max-width: 100%;" alt="image" src="https://github.com/user-attachments/assets/e2c390ef-5ea2-49f6-9960-99d985809934" />
 
 ```csharp
 View view = GetView(); // However you resolve this dependency is up to you
@@ -56,7 +56,7 @@ view.Bind(null); // Bindings receive default values
 ### Writing A Custom Binding
 Based on built-in binding provided for TextMesh
 
-<img width="917" height="142" alt="image" src="https://github.com/user-attachments/assets/b3ea0ce3-41ee-4569-ae55-4fb353124749" />
+<img style="height: auto; max-width: 100%;" alt="image" src="https://github.com/user-attachments/assets/b3ea0ce3-41ee-4569-ae55-4fb353124749" />
 
 ```csharp
 public class TextMeshStringTextBinding : Binding<string>
@@ -76,7 +76,7 @@ The only provided collection binding is `TransformViewCollectionBinding`, which 
 <img style="height: auto; max-width: 100%;" alt="image" src="https://github.com/user-attachments/assets/e3ea89c3-20d0-47a1-9549-b9cd68a92d0e" />
 
 ### Receiving Input From The View
-<img width="907" height="262" alt="image" src="https://github.com/user-attachments/assets/7ad01286-4f87-47e7-a845-bb227906114e" />
+<img style="height: auto; max-width: 100%;" alt="image" src="https://github.com/user-attachments/assets/7ad01286-4f87-47e7-a845-bb227906114e" />
 
 ```csharp
 // Update our view model
@@ -131,7 +131,7 @@ Once you've mastered the basics, these more advanced topics will really help you
 ### Nesting View Models
 Beyond a collection, you can also nest view models inside other view models by simply making them a property. Then in your Scene/Prefab you can use `ChildViewBinding` to bind that value to a child view. Furthermore, you can make that field `Observable<T>` where T is the child view model. Changing the observable value will result in another view model being bound to the child view. This would be useful for something like a description window, which changes the description panel depending on the item selected. Or it can simply be done to re-use view models compositionally, like a progress bar used in several UI throughout your game.
 
-<img width="913" height="255" alt="image" src="https://github.com/user-attachments/assets/8536d156-cb60-4d2b-83d9-5422c93bbb7d" />
+<img style="height: auto; max-width: 100%;" alt="image" src="https://github.com/user-attachments/assets/8536d156-cb60-4d2b-83d9-5422c93bbb7d" />
 
 ```csharp
 [ViewModel]
