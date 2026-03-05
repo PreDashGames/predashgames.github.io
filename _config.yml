@@ -1,3 +1,5 @@
-theme: jekyll-theme-slate
+theme: minima
+minima:
+skin: auto
 title: PreDashGames
 description: Powerful assets to help you out in your projects, before you make the jump!
