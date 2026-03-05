@@ -1,6 +1,4 @@
-# Getting Started
-
-Thanks for using Search Lib. The goal of this document is to get you up and running as fast as possible. One of the primary goals for Search Lib is that it takes no time to get up and running.
+A fuzzy search library built specifically for unity. This library provides implementations of a wide array of fuzzy search methods so you can pick the one that’s right for your use case. This library can be used in both runtime applications and editor tools. It has a simple interface that makes it incredibly simple to work with. You can start using it within minutes, with the option to dive deep and create your own implementations.
 
 ## Terms
 - **Distance Metric**: Is a function that computes the distance between two strings. You can measure these distances in many different ways. One example is the Levenshtein distance, which is the number of insertions, deletions, and substitutions required to transform one string into another. In this project the IDistanceMetric interface represents a computation of a metric. An object that implements IDistanceMetric represents one computation and is stateful. Make sure to reset the state before reusing.
