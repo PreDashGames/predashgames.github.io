@@ -1,4 +1,8 @@
-# Elementary
+---
+title: Elementary
+---
+
+# About
 Elementary is a minimal reflection based MVVM framework.
 
 Elementary is build with a few core principles in mind:
