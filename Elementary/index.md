@@ -1,5 +1,3 @@
-# Elementary
-
 Elementary is a minimal reflection based MVVM framework.
 
 Elementary is build with a few core principles in mind:
@@ -170,6 +168,11 @@ public class AnimatedSliderViewBinding : Binding<float>
 	{
 		if (slider == null) return;
 		targetValue = value;
+		if (source == ValueSource.ViewModelBinding)
+		{
+			slider.value = value;
+			return;
+		}
 		if (animationCoroutine == null)
 		{
 			animationCoroutine = StartCoroutine(AnimateSlider());
